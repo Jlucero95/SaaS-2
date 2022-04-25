@@ -1,0 +1,210 @@
+@media screen and (max-width: 900px) {
+  .wid-2 { width: 800px;}
+
+  .perspectives { justify-content: center;}
+
+  .card { flex: 1 1 300px;}
+
+  .price-table { justify-content: center;}
+
+  .price-card { 
+    margin-bottom: 25px;
+    width: 460px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .price-card .btn { margin: auto;}
+
+  .guarantee {
+    gap: 16px;
+    width: 655px;
+  }
+
+  .guarantee-card {
+    text-align: center;
+    padding: 20px;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .wid-3 { width: 768px;}
+
+  [aria-controls="navbarDropdown"] {
+    display: block;
+  }
+
+  [aria-expanded="false"] ~ ul {
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ ul {
+    display: block;
+    position: absolute;
+    top: 60px;
+    right: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 152px;
+    text-align: right;
+    box-shadow: 0px 0px 20px rgb(52 49 75 / 10%);
+    line-height: 1.8;
+  }
+
+  .top-header { display: none;}
+
+  .bt-header { margin-top: 10px;}
+
+  .nav-btn { display: none;}
+
+  .bottom-header { 
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+  }
+
+  .size-big, .size-small { right: 75px;}
+
+  .benefit-cards { margin: 25px 140px;}
+
+  .card {
+    margin: 20px 0;
+    flex: 1 1 250px;
+  }
+
+  .line { display: none;}
+
+  .hubspot { flex-direction: column;}
+
+  .dot-links {
+    display: grid;
+    grid-template-columns: repeat(2, 90px);
+    grid-template-areas: 
+    "dot point";
+  }
+
+  .dot-n-lines {
+    flex-direction: column;
+    grid-area: dot;
+    width: 39px;
+    justify-content: space-between;
+    margin: 15px 0px 15px 40px;
+  }
+
+  .start-points {
+    grid-area: point;
+    flex-direction: column;
+    width: 160px;
+  }
+
+  .comp { left: 0;}
+
+  .get-started {
+    width: 450px;
+    text-align: center;
+  }
+
+  .disappear { display: none;}
+
+  .companies {justify-content: space-evenly;}
+
+  .card-img { margin: auto;}
+
+  .hire > * {
+    margin: auto;
+    align-items: center;
+  }
+
+  .top-footer div {
+    flex: 0 1 235px;
+    text-align: center;
+  }
+
+  .top-footer .company-logo { margin: auto;}
+
+  .top,
+  .copyright { 
+    width: 500px;
+    margin: auto;
+  }
+
+  .top { justify-content: space-evenly;}
+
+  .social { margin-top: 25px;}
+}
+
+@media screen and (max-width: 550px) {
+  .wid-marg {
+    width: 375px;
+    margin: auto;
+  }
+
+  .bt-header { z-index: 100;}
+
+  .bottom-header { margin-top: 25px;}
+
+  .logo-set {
+    position: relative;
+    right: 40px;
+  }
+
+  .benefit-cards,
+  .card {
+    width: 375px;
+    margin: 15px 0;
+    padding: 15px;
+  }
+ 
+  .question, 
+  .why-video {
+    width: 375px;
+    margin-top: 100px;
+  }
+
+  .play-btn {
+    left: 175px;
+    bottom: 100px;
+  }
+
+  .kray-pic { left: 12px;}
+
+  .guarantee {
+    grid-template-columns: repeat(1, 375px);
+    grid-template-areas: 
+    "components"
+    "images"
+    "cancel"
+    "money"
+    ;
+  }
+
+  .top-footer .company-logo { margin: 0;}
+
+  .top-footer div {
+    flex: 0 1 187px;
+    text-align: left;
+    margin: 0;
+    padding-left: 12px;
+  }
+
+  .top-footer .address {margin-right: 50px;}
+
+  .address > address { width: 232px;}
+
+  .social { margin: 25px auto;}
+
+  .copyright,
+  .top {
+    width: 350px;
+  }
+
+  .copy-top,
+  .copy-bottom {
+    width: 350px;
+    margin: auto;
+  }
+
+  .copy-bottom {
+    text-align: center;
+  }
+}

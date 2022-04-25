@@ -1,0 +1,105 @@
+:root {
+  --font-dark: #000000;
+  --font-light: #878684;
+  --font-blue: #3377ff;
+  --font-white: #ffffff;
+  --bg: #f8f8f8; 
+}
+
+html { scroll-behavior: smooth;}
+
+body { 
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  color: var(--font-light);
+  max-width: 1200px;
+  font-size: 18px;
+}
+/* 
+For elements and sections
+ needing a wrapping flex-box
+*/
+.flx-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* 
+For elements and sections
+ needing a non-wrapping flex-box
+*/
+.dspl-flx { display: flex;}
+/* 
+For elements and sections
+ that needed to be moved
+*/
+.rel { position: relative;}
+
+.bt-header { 
+  position: fixed;
+  top: 5px;
+  z-index: 100;
+  background: var(--font-white);
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: var(--font-light);
+}
+/* 
+To color all headers and a couple of span
+tags the same color
+*/
+.h-fnt, .fnt { 
+  color: var(--font-dark);
+  font-weight: 600;
+}
+
+a,
+a::before,
+a::after {
+  text-decoration: none;
+  color: var(--font-white);
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.btn { 
+  width: 85px;
+  border: none;
+  background-color: var(--font-blue);
+  font-size: 12px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.learn { color: var(--font-blue);}
+
+.br-10 { border-radius: 10px;}
+/* 
+Margins and paddings
+*/
+.aln-ctr { align-items: center;}
+.jc-se {justify-content: space-evenly;}
+.jc-sb {justify-content: space-between;}
+.txt-ctr { text-align: center;}
+.marg-auto { margin: auto;}
+/* 
+Variable classes
+*/
+.clr-wht {color: var(--font-white);}
+.clr-dk { color: var(--font-dark);}
+.clr-lt { color: var(--font-light);}
+.clr-bl { color: var(--font-blue);}
+.clr-bg { color: var(--bg);}
